@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="chartist.css">
+        <script src="chartist.js"></script>
+        <title>My Chart</title>
+    </head>
+    <body>
+        <div class="ct-chart ct-double-octave"></div>
+        <script>
+            var myData = {
+                labels: ['Gelb', 'Rot', 'Blau', 'Schwarz'],
+                series: [
+                    [0, 42, 4, -10, 5]
+                ],
+                data: [0, 42, 4, 22, 17]
+            };
+            var options = {
+                width: 800,
+                height: 600,
+                showArea = true
+            };
+        </script>
+    </body>
+</html>

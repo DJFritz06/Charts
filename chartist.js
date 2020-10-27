@@ -4471,7 +4471,7 @@ var Chartist = {
       data,
       defaultOptions,
       Chartist.extend({}, defaultOptions, options),
-      responsiveOptions);
+      responsiveOptions); 
   }
 
   // Creating pie chart type in Chartist namespace
